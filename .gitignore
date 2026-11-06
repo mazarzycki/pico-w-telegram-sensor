@@ -217,4 +217,14 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
-.streamlit/secrets.toml
+.streamlit/secrets.toml 
+
+# Credentials
+secrets.py
+**/secrets.py
+.env
+.env.*
+
+# Local environments
+.venv/
+__pycache__/
